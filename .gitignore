@@ -12,3 +12,9 @@ wheels/
 .python-version
 uv.lock
 session.db
+
+# Secrets
+.env
+**/.env
+!.env.example
+!**/.env.example
